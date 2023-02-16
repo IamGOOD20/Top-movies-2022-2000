@@ -5,7 +5,7 @@ Starting from the largest movie database in the world, I wrote a program that an
 # Functional
 The program reads films from the IMDB database from 2000 to 2022 with a metascore of over 60. It generates a table and writes it to a hl file in descending order of rating.
 
-# Import:
+# Used:
     from requests import get
     from bs4 import BeautifulSoup
     import pandas as pd
